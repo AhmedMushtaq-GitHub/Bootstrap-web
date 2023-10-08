@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <link rel="stylesheet" href="/bootstrap.bundle.js">
+    <link rel="stylesheet" href="/webstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Dancing+Script:wght@500&family=Edu+SA+Beginner:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fortawesome-free@6.2.1/css/fontawesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Ahmed</title>
+
+    <style>
+        .carousel-item img{
+            width: 100%;
+            height: 80vh;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-white px-4 text-center border-bottom fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fs-2" href="#">Ahemd <span class="text-primary">Dev.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ml-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Webdevelopment</a></li>
+                  <li><a class="dropdown-item" href="#"> Digital Markeeting</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Seo</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Team</a>
+              </li>  <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider -->
+
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/img/slider1.webp" class="d-block w-100 h-80" alt="...">
+            <div class="carousel-caption  d-md-block text-primary">
+              <h5>Slide for See my Project</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/img/Screenshot 2023-08-16 115037.png" class="d-block w-100 h-80" alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Project 1</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Screenshot 2023-08-16 115150.png" class="d-block w-100 " alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Project 2</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/img/Screenshot 2023-08-16 115346.png" class="d-block w-100 " alt="...">
+            <div class="carousel-caption  d-md-block">
+              <h5>Project 3</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+<!-- about me -->
+<section class="my-5">
+  <div class="container ">
+    <div>
+      <h1 class="text-center " data-aos="fade-up" data-aos-offset="300" >About <span class="text-primary">me</span></h1>
+      <hr class="w-25 m-auto" data-aos="fade-down" data-aos-offset="300">
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 ">
+<h1 class="my-5" data-aos="fade-up" data-aos-offset="300">What do you <span class="text-primary">want to know?</span></h1>
+<p class="p-2" data-aos="fade-left" data-aos-offset="300">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, distinctio. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, <praesentium class="lorem10"></praesentium></p>
+
+<button class="btn btn-primary mb-5 " data-aos="fade-left" data-aos-offset="300">More About me</button>
+
+<!-- Accordion -->
+
+<div class="accordion accordion-flush " id="accordionFlushExample" data-aos="fade-left" data-aos-offset="300">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        My Qualifications
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        My Hobbies
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        My Aims
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+    </div>
+  </div>
+</div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto text-end">
+<img class="my-4 h-60 img-thumbnail img-fluaid" src="/img/ahmed.png " alt="" data-aos="fade-right" data-aos-offset="400">
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- services -->
+<section class="services py-5 bg-light">
+  <div class="container">
+    <div>
+      <h1 class="text-center" data-aos="fade-up" data-aos-offset="400">Our <span class="text-primary">Services</span></h1>
+      <hr class="w-25 m-auto" data-aos="fade-down" data-aos-offset="300">
+    </div> 
+    <!-- row 1 -->
+   <div class="row py-5">
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="card" data-aos="fade-right" data-aos-offset="200">
+        <div class="card-body" >
+          <i class="fa fa-users"></i>
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="card bg-primary text-white">
+        <div class="card-body">
+          <h5 class="card-title">App Development</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary bg-white text-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+      <div class="card" data-aos="fade-left" data-aos-offset="200">
+        <div class="card-body">
+          <h5 class="card-title">SEO</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  
+   </div>
+    <!-- row 2 -->
+    <div class="row py-1">
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="card" data-aos="fade-right" data-aos-offset="200">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="card bg-primary text-white">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary bg-white text-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="card" data-aos="fade-left" data-aos-offset="200">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    
+     </div>
+  
+  </div>
+</section>
+
+<!-- team section -->
+<section class="team my-5 text-center">
+ <div class="container">
+    <div>
+      <h1 class="text-center" data-aos="fade-up" data-aos-offset="400">Our <span class="text-primary">Team</span></h1>
+      <hr class="w-25 m-auto" data-aos="fade-down" data-aos-offset="300">
+    </div>
+<div class="row py-5" >
+  <div class="col-12 col-sm-12 col-md-4 col-lg-4" >
+<div class="card" data-aos="fade-right"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
+      <div class="card-body">
+        <img style="height: 220px; width: 200px;" src="/img/ahmed.png" class="img-fluid rounded-circle border border-primary ">
+        <h5 class="card-title">Ahmed Mushtaq</h5>
+        <p class="card-text">.Net Developer</p>
+                <p class="card-text">WordPress(CMS)</p>
+                
+
+        <a href="#" class="btn btn-primary">Contect</a>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+<div class="card">
+       <div class="card-body">
+        <img style="height: 220px; width: 200px;" src="/img/ahmed.png" class="img-fluid rounded-circle border border-primary ">
+        <h5 class="card-title">Ahmed Mushtaq</h5>
+        <p class="card-text">Front-end Developer</p>
+           <p class="card-text">WordPress(CMS)</p>
+        <a href="#" class="btn btn-primary">Contect</a>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+<div class="card" data-aos="fade-left"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
+       <div  class="card-body">
+        <img style="height: 220px; width: 200px;" src="/img/ahmed.png" class="img-fluid rounded-circle border border-primary ">
+        <h5 class="card-title">Ahmed Mushtaq</h5>
+        <p class="card-text">Back-end Developer</p>
+           <p class="card-text">WordPress(CMS)</p>
+        <a href="#" class="btn btn-primary">Contect</a>
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+ </div>
+
+</section>
+
+<!-- contect form -->
+
+<section class="contect-form my-5 ">
+<div class="container">
+    <div>
+      <h1 class="text-center" data-aos="fade-up" data-aos-offset="400">Feel free <span class="text-primary">to connect</span></h1>
+      <hr class="w-25 m-auto" data-aos="fade-down" data-aos-offset="300">
+    </div>
+<div class="row my-5">
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 my-5">
+<form class="row g-3" data-aos="zoom-in-right" data-aos-offset="200">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+</div>
+
+
+<div class="col-12 col-sm-12 col-md-6 col-lg-6 m-auto text-end">
+  <img  class="my-4 h-60 img-thumbnail img-fluaid " src="/img/ahmed.png " alt="" data-aos="zoom-in-left" data-aos-offset="200">
+</div>
+</div>
+</div>
+</section>
+
+<div class="container-fluid bg-primary text-white fs-5 p-2 text-center">Ahmed Mushtaq</div>
+
+
+
+
+    <script src="/bootstrap.bundle.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</html>
